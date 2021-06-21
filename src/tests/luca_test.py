@@ -15,7 +15,7 @@ def test_method():
     
     
     # Check all scores evaluate to score_filter
-    score_filter= 1
+    score_filter = 1
     r = L.compute_distance(dog_names, score_filter)
     
     assert [x for x in L.test_scores] == [
