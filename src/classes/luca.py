@@ -7,7 +7,7 @@ class Luca:
     """
 
     def __init__(self, target='Luca'):
-        self.target = 'Luca'
+        self.target = target 
         self.test_scores = None
 
     def compute_distance(self, name_list, score_to_select=1):
