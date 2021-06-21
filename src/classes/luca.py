@@ -17,8 +17,8 @@ class Luca:
         :type name_list: list
         :param score_to_select: Levenshtein score to filter list on, defaults to 1
         :type score_to_select: int, optional
-        :return: list of names filtered on a specific Levenshtein score
-        :rtype: list
+        :return: set of names filtered on a specific Levenshtein score
+        :rtype: set
         """
 
         # Get Levenshtein distance and filter on score
