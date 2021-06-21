@@ -27,7 +27,7 @@ class Luca:
         selected_scores = scores[idx]
 
         # Save scores for later code tests
-        self. test_scores = selected_scores
+        self.test_scores = selected_scores
         selected_names = name_list[idx]
 
         # Convert list to set
